@@ -37,7 +37,7 @@
 <a href="https://www.root-me.org/rotten-guy?lang=en"><img src="assets/card-rootme.svg" alt="Root-Me: score, solved challenges and position" width="49%"></a>
 <a href="https://www.keybr.com/profile/752ae7r"><img src="assets/card-typing.svg" alt="Typing: keybr and Monkeytype stats" width="49%"></a>
 
-<a href="https://monkeytype.com/profile/rotten_guy"><img src="assets/typing.svg" alt="My Lily58 typing i use arch btw, sudo pacman -Syu and ping -c 1 8.8.8.8 at my real speed" width="100%"></a>
+<a href="https://www.keybr.com/profile/752ae7r"><img src="assets/typing.svg" alt="My Lily58 typing i use arch btw, sudo pacman -Syu and ping -c 1 8.8.8.8 at my real speed" width="100%"></a>
 
 <a href="https://rotten-guy.github.io/#skills"><img src="assets/activity.svg" alt="Typing calendar: minutes typed per day" width="100%"></a>
 
