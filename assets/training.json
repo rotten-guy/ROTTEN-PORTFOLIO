@@ -1,6 +1,6 @@
 {
  "keybr": {
-  "accuracy": 96.5,
+  "accuracy": 95.9,
   "days": {
    "2025-06-29": {
     "lessons": 22,
@@ -149,21 +149,32 @@
    "2026-11-02": {
     "lessons": 38,
     "minutes": 22.2
+   },
+   "2026-11-03": {
+    "lessons": 38,
+    "minutes": 14.2
    }
   },
   "first": "2025-06-29",
-  "lessons": 1072,
-  "minutes": 500.0,
-  "wpm_avg": 81.2,
-  "wpm_best": 118.2
+  "lessons": 1110,
+  "minutes": 514.2,
+  "wpm_avg": 90.9,
+  "wpm_best": 119.9
  },
  "monkeytype": {
-  "days": {},
-  "max_streak": 0,
-  "minutes": 0.0,
-  "pb": {},
-  "streak": 0,
-  "tests": 0
+  "days": {
+   "2026-11-03": 4
+  },
+  "max_streak": 1,
+  "minutes": 2.4,
+  "pb": {
+   "30": {
+    "acc": 88,
+    "wpm": 56.0
+   }
+  },
+  "streak": 1,
+  "tests": 4
  },
- "updated": "2026-11-03 08:01"
+ "updated": "2026-11-03 16:21"
 }
