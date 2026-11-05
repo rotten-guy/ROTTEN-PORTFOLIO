@@ -438,7 +438,12 @@ def activity_svg(data):
         m, t = days.get(day.isoformat(), (0, 0))
         lv = level(m, t)
         f = f' filter="url(#{uid}-soft)"' if lv == 4 else ""
-        body.append(f'<rect x="{gx + col * (cell + gap):.1f}" y="{112 + row * (cell + gap)}" width="{cell}" height="{cell}" rx="4" fill="{LEVELS[lv]}"{f}/>')
+        x, y = gx + col * (cell + gap), 112 + row * (cell + gap)
+        body.append(f'<rect x="{x:.1f}" y="{y}" width="{cell}" height="{cell}" rx="4" fill="{LEVELS[lv]}"{f}/>')
+        if day == today:      # today: cyan outline
+            body.append(f'<rect x="{x - 2:.1f}" y="{y - 2}" width="{cell + 4}" height="{cell + 4}" rx="5" fill="none" stroke="{CYAN}" stroke-width="2"/>')
+        if row == 0 and (day.day <= 7 or i == 0):   # month label above the week where it starts
+            body.append(text(day.strftime("%b"), x, 106, 10, DIM))
     lx = w - 48 - 5 * 19 - text_width("more", 10)
     body.append(text("less", lx - 8, 278, 10, DIM, anchor="end"))
     for i, colour in enumerate(LEVELS):
